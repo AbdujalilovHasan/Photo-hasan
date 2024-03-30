@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 86%;
+    margin: 0 auto;
+}
+
+.nav-row {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.nav-ul {
+    list-style-type: none;
+    display: flex;
+    gap: 57px;
+}
+
+.right {
+    margin-left: -45px;
+}
+
+.left {
+    gap: 81px;
+    display: flex;
+}
+
+.nav-link {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: left;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    transition: .7s;
+    color: #808080;
+}
+
+.nav-number {
+    cursor: pointer;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.header-row {
+    margin-top: 85px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-h1 {
+    font-family: Montserrat;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.header-text {
+    margin-top: 53px;
+    width: 549px;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+.header-btn {
+    width: 237px;
+    height: 72px;
+    border: 2px solid #000;
+    background-color: #fff;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 55px;
+}
+
+.header-footer {
+    margin-top: 128px;
+    align-items: center;
+    display: flex;
+}
+
+.header-footer-h2 {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hr {
+    margin-left: 27px;
+    border: 2px solid #000;
+    width: 760px;
+    height: 0px;
+}
+
+.section1 {
+    margin-top: 78px;
+    display: flex;
+    position: relative;
+    height: 1000px;
+}
+
+.img_1 {
+    position: absolute;
+    top: 200px;
+    left: 10px;
+}
+
+
+.img_2 {
+    width: 140px;
+    position: absolute;
+    top: 78px;
+    right: 304px;
+}
+
+.section1-p {
+    top: 300px;
+    left: 490px;
+    letter-spacing: 10%;
+    position: absolute;
+    width: 330px;
+    font-family: Montserrat;
+    font-size: 17px;
+    z-index: 5;
+}
+
+.section2 {
+    margin-top: 122px;
+    padding: 76px 227px 60px 223px;
+    background-image: url('img/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section2-card {
+    margin-top: 104px;
+    width: 249px;
+}
+
+.section2-text {
+    font-family: Montserrat;
+    font-size: 24px;
+    text-align: center;
+}
+
+.section2-row {
+    text-align: center;
+    display: flex;
+    gap: 74px;
+}
+
+.section2-title {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.portfolio {
+    margin-left: 108px;
+    margin-top: 182px;
+    display: flex;
+    align-items: center;
+}
+
+.portfolio-h1 {
+    font-family: Montserrat;
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.first-img-row {
+    display: flex;
+    gap: 41px;
+}
+
+.second-img-img {
+    margin-top: 41px;
+}
+
+.section-img {
+    margin-top: 126px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.three-img-img {
+    margin-left: 41px;
+}
+
+.img-section-btn {
+    cursor: pointer;
+    background-color: #fff;
+    margin-left: 510px;
+    margin-top: 101px;
+    width: 250px;
+    height: 80px;
+    border: 2px solid #000;
+    padding: 4px;
+    font-family: Montserrat;
+    font-size: 22px;
+    line-height: 60px;
+    letter-spacing: 0.05em;
+}
+
+.card-title {
+    margin-top: 150px;
+}
+
+.card-h1 {
+    font-family: Montserrat;
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.card-title {
+    display: flex;
+    align-items: center;
+    gap: 63px;
+}
+
+.cards {
+    margin-top: 116px;
+    display: flex;
+    justify-content: space-around;
+    gap: 85px;
+}
+
+.card {
+    padding: 21px 18px 28px 18px;
+    width: 370px;
+    height: 550px;
+    border: 4px solid #000;
+
+}
+
+.card-p {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.line {
+    margin-left: 80px;
+    width: 155px;
+    border: 1px solid #000;
+}
+
+.card-money {
+    margin-top: 20px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.card-button {
+    margin-left: 97px;
+    width: 136px;
+    height: 60px;
+    background-color: #fff;
+    border: 2px solid #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0.05em;
+}
+
+footer {
+    width: 659px;
+    margin: 0 auto;
+}
+
+.footer-h3 {
+    margin-top: 228px;
+    font-family: Montserrat;
+    font-size: 26.36px;
+    font-weight: 700;
+    line-height: 43.93px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.footer-line {
+    margin-top: 5px;
+    width: 659px;
+    border: 1.46px solid #000;
+}
+
+footer ul {
+    margin-top: 12px;
+    list-style-type: none;
+    gap: 90px;
+    display: flex;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20.5px;
+    font-weight: 400;
+    line-height: 43.93px;
+    letter-spacing: 0.05em;
+}
+
+.footer-icons {
+    margin-top: 37px;
+    justify-content: center;
+    display: flex;
+    gap: 37px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+footer ul li {
+    cursor: pointer;
+}
